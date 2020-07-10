@@ -1,6 +1,4 @@
-document.querySelector('.menú-btn').addEventListener('click', ()=>{
-document.querySelector('.nav_menú').classList.toggle('show')
-});
+
 ScrollReveal().reveal('.portada');
 ScrollReveal().reveal('.servicios', { delay: 500 });
 ScrollReveal().reveal('.ubicación', { delay: 500 });
