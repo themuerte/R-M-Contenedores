@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>R&M Contenedores</title>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <!--Fuente-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <meta charset="utf.8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Compra/Venta de contenedores">
+    <meta name="keywords" content="contenedores, compra, venta">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="menú-btn" >
+        <i class="fas fa-bars"></i>
+
+    </div>
+
+    <div class="Contenedor">
+        <nav class="nav_main">
+            <img src="imgs/Logo.png" alt="R&M Logo" class="nav_logo">
+            <ul class="nav_menú show">
+                <li> <a href="#">Inicio</a> </li>
+
+                <li> <a href="../V_Galería/index.html">Galería</a> </li>
+
+                <li> <a href="../V_Servicios/index.html">Servicios</a> </li>
+
+                <li> <a href="#contacto">Contacto</a> </li>
+
+                <li> <a id="btnModal" href="#">Acceder</a> </li>
+
+            </ul>
+
+            <ul  class="nav_menú_derecha">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="tvesModal" class="modalContainer">
+        <div class="modal-content">
+          <span class="close">×</span>
+          <div class="reg_caja">
+              <label for=""></label>
+              <img src="imgs/usuario.png" alt="">
+              <input name="usuario" placeholder=" Usuario" type="text" class="Input" value=""/>
+              <input name="usuario" placeholder=" Contraseña" type="password" class="Input" value=""/>
+              <a href="index.html"><button class="btn_reg">Acceder</button></a>
+            </div>
+        
+          </div>
+          
+        </div>
+    
+    <div class="Contenedor">
+               
+
+        <header class="portada">
+            <h2 class="wlc">Bienvenidos</h2>
+            <h2>R&M CONTENEDORES</h2>
+            <a href="#somos" class="btnp"> ¿Quiénes somos? <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+        <div class="galería">
+            <div>
+                <img src="imgs/img1.jpeg" alt="Proyecto 1" />
+                <h3>Febrero 01, 2020.</h3>
+                <p>Contenedor Blanco  Largo y ancho: 12.19 x 2.43 metros. <br>   Descripción:   Contenedor de 40 pies estándar, personalizado para
+                    ser <br>  una mini casa, paredes de gypsum, color blanco hueso con un ventanal, <br>  puerta corrediza y divisiones en el interior.
+                </p>
+                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="imgs/img2.jpeg" alt="Proyecto 2" />
+                <h3>Diciembre 26, 2020.</h3>
+                <p> Contenedor Rojo  Largo y ancho: 6.05 x 2.43 metros. <br>  Descripción:   Contenedor de 20 pies estándar,
+                    personalizado para  ser <br>  una oficina, dos ventanas y una puerta, instalación de sistema eléctrico.
+                </p>
+                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="imgs/img3.jpeg" alt="Proyecto 3" />
+                <h3>Marzo 05, 2020.</h3>
+                <p>Contenedor Rojo  Largo y ancho: 6.05 x 2.43 metros. <br>   Descripción:   Contenedor de 20 pies estándar,
+                    personalizado para ser <br>  una oficina y corral para tener caballos, paredes de  gypsum, tres <br>  ventanas,
+                    una puerta, instalación de  sistema eléctrico y aire acondicionado
+                </p>
+                <a href="#">Leer más <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <section class="servicios">
+            <div class="content" >
+                <h2>Nuestros Servicios</h2>
+                <a href="#" class="btnp">Ver más <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <section class="ubicación"  id="contacto">
+            <div class="ubicación-content"   >
+                <h2>Como llegar</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.5487067703257!2d-86.33765858523802!3d12.142999991403316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71574abb0305af%3A0x1fdd6a0fffc4dbce!2sR%26M%20Contenedores!5e0!3m2!1ses-419!2sni!4v1594267380853!5m2!1ses-419!2sni" width="600" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="formulario_map">
+                <h2>Formulario de contacto</h2>
+                <p>Por favor complete el siguiente formulario y un ejecutivo de R&M CONTENEDORES se comunicará con usted a la brevedad posible.</p>
+                <label for="">(*) Información Obligatoria</label>
+                <h4>Nombre *</h4>
+                <input type="text" name="" id="">
+                <h4>Correo Electrónico *</h4>
+                <input type="text" name="" id="">
+                <h4>Su mensaje *</h4>
+                <input type="text" name="" id="">
+                <h4>Teléfono *</h4>
+                <input type="text" name="" id=""><br>
+                <button>Enviar Mensaje</button>
+            </div>
+        </section>
+
+        <section class="somos" id="somos"> 
+            <article class="acerca">
+              <h2 class="h_2">ACERCA DE NOSOTROS</h2>
+              <p>
+                R&M Contenedores es una pequeña empresa comprometida  con la calidad y tiene como objetivo fundamental
+                satisfacer las necesidades de sus clientes con nuestros amplios servicios como: compra - venta de contenedores,
+                mantenimiento, personalizados, etc.  Les esperamos en nuestras instalaciones o puede contactarnos a nuestro número o correo.
+              </p>
+            </article>
+            <article class="mision">
+                <h2 class="h_2">Misión</h2>
+                <p>Ofrecer un producto y un servicio de calidad para la industria de la 
+                  vivienda y del transporte</p>
+            </article>
+            <article class="vision" >
+                <h2 class="h_2">Visión</h2>
+                <p>Ser una empresa de referencia en la prestación de servicio y 
+                  productos en Nicaragua referentes a los contenedores.</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <div class="main-content">
+
+            <div class="contenido izquierda">
+                <h2> Acerca de nosotros</h2>
+                <div class="content">
+                    <p>R&M Contenedores es una pequeña empresa comprometida  con la calidad y tiene como objetivo fundamental
+                    satisfacer las necesidades de sus clientes con nuestros amplios servicios como: compra - venta de contenedores,
+                    mantenimiento, personalizados, etc.  Les esperamos en nuestras instalaciones o puede contactarnos a nuestro número o correo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contenido central">
+                <h2> Ubicación</h2>
+                <div class="content">
+
+                    <div class="lugar">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Contiguos a Camas Karen, 18 Calle Suroeste. </span>
+                    </div>
+
+                    <div class="teléfono">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+505-77139484</span>
+                    </div>
+
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">rymcontenedoresnicaragua@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido derecho">
+                <h2>Contáctanos</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+
+                        <div class="msg">
+                            <div class="text">Mensaje *</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+
+                        <div class="btn">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--Scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
+

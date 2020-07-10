@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>R&M Contenedores</title>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <meta charset="utf.8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Compra/Venta de contenedores">
+    <meta name="keywords" content="contenedores, compra, venta">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="Contenedor">
+        <nav class="nav_main">
+            <img src="imgs/Logo.png" alt="R&M Logo" class="nav_logo">
+            <ul class="nav_menú">
+                <li> <a href="../V_Principal/index.html">Inicio</a> </li>
+
+                <li> <a href="#">Galería</a> </li>
+
+                <li> <a href="../V_Galería/index.html">Servicios</a> </li>
+
+                <li> <a href="#contacto">Contacto</a> </li>
+
+                <li> <a id="btnModal" href="#">Acceder</a> </li>
+            </ul>
+
+            <ul  class="nav_menú_derecha">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="tvesModal" class="modalContainer">
+        <div class="modal-content">
+          <span class="close">×</span>
+          <div class="reg_caja">
+              <label for=""></label>
+              <img src="imgs/usuario.png" alt="">
+              <input name="usuario" placeholder=" Usuario" type="text" class="Input" value=""/>
+              <input name="usuario" placeholder=" Contraseña" type="password" class="Input" value=""/>
+              <a href="index.html"><button class="btn_reg">Acceder</button></a>
+            </div>
+        
+          </div>
+          
+        </div>
+
+        <div class="contenedorgal">
+            <ul class="ulContent">
+                <li class="enlaces activo" data.nombre="Todos">Todos</li>
+                <li class="enlaces" data.nombre="Compra">Compra</li>
+                <li class="enlaces" data.nombre="Personalizados">Personalizados</li>
+            </ul>
+
+            <div class="fotos">
+                <div class="caja filtro Compra"><img src="imgs/img01.jpeg"></div>
+                <div class="caja filtro Personalizados"><img src="imgs/img02.jpeg"></div>
+                <div class="caja filtro Compra"><img src="imgs/img01%20(2).jpeg"></div>
+                <div class="caja filtro Personalizados"><img src="imgs/img02%20(1).jpeg"></div>
+                <div class="caja filtro Compra"><img src="imgs/img01%20(3).jpeg"></div>
+                <div class="caja filtro Personalizados"><img src="imgs/img02%20(2).jpeg"></div>
+                <div class="caja filtro Compra"><img src="imgs/img01%20(4).jpeg"></div>
+                <div class="caja filtro Personalizados"><img src="imgs/img02%20(3).jpeg"></div>
+                <div class="caja filtro Compra"><img src="imgs/img01%20(5).jpeg"></div>
+                <div class="caja filtro Personalizados"><img src="imgs/img02%20(5).jpeg"></div>
+                <div class="caja filtro Compra"><img src="imgs/img01%20(6).jpeg"></div>
+                <div class="caja filtro Personalizados"><img src="imgs/img02%20(3).jpeg"></div>
+
+            </div>
+        </div>
+
+   
+        <footer id="contacto">
+            <div class="main-content">
+    
+                <div class="contenido izquierda">
+                    <h2> Acerca de nosotros</h2>
+                    <div class="content">
+                        <p>R&M Contenedores es una pequeña empresa comprometida  con la calidad y tiene como objetivo fundamental
+                        satisfacer las necesidades de sus clientes con nuestros amplios servicios como: compra - venta de contenedores,
+                        mantenimiento, personalizados, etc.  Les esperamos en nuestras instalaciones o puede contactarnos a nuestro número o correo.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="contenido central">
+                    <h2> Ubicación</h2>
+                    <div class="content">
+    
+                        <div class="lugar">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text">Contiguos a Camas Karen, 18 Calle Suroeste. </span>
+                        </div>
+    
+                        <div class="teléfono">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text">+505-77139484</span>
+                        </div>
+    
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">rymcontenedoresnicaragua@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="contenido derecho">
+                    <h2>Contáctanos</h2>
+                    <div class="content">
+                        <form action="#">
+                            <div class="email">
+                                <div class="text">Email *</div>
+                                <input type="email" required>
+                            </div>
+    
+                            <div class="msg">
+                                <div class="text">Mensaje *</div>
+                                <textarea rows="2" cols="25" required></textarea>
+                            </div>
+    
+                            <div class="btn">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+            </div>
+        </footer>
+<script src="main.js"></script>
+
+
+</body>
+</html>
+
